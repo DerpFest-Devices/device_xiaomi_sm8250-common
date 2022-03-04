@@ -281,11 +281,21 @@ ro.soc.model=SM8250
 #bit 1 for direction send in normal mode
 #bit 2 for edge grip by 12 rect
 #bit 3 represents set touch driver debug level by system
-ro.vendor.touchfeature.type=2
+ro.vendor.touchfeature.type=3
+
+#initialize QCA1530 detection
+sys.qca1530=detect
 
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
+
+#sysprop for WLAN
+ro.hardware.wlan.vendor=qcom
+ro.hardware.wlan.chip=639x
+ro.hardware.wlan.mimo=1
+# 0: no dbs, 1: 1x1 dbs, 2: 2x2 dbs
+ro.hardware.wlan.dbs=2
 
 # WiFi
 wifi.aware.interface=wifi-aware0
