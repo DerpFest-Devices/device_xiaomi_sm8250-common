@@ -230,6 +230,7 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     libdisplayconfig.qti \
+    libdisplayconfig.system.qti \
     libdisplayconfig.qti.vendor \
     libsdedrm \
     libsdmcore \
