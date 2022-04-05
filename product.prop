@@ -1,6 +1,9 @@
 # IORap
 iorapd.readahead.enable=true
 
+# Disable remote keyguard animation
+persist.wm.enable_remote_keyguard_animation=0
+
 # Graphics
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
