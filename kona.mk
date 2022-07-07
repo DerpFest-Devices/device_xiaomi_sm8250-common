@@ -487,7 +487,8 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.2-service-qti
+    android.hardware.usb@1.2-service-qti \
+    android.hardware.usb@1.0-service
 
 PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
@@ -495,6 +496,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/usb/etc
+
+PRODUCT_PROPERTY_OVERRIDES += vendor.usb.use_ffs_mtp=1
+PRODUCT_PROPERTY_OVERRIDES += sys.usb.mtp.batchcancel=1
 
 # Vendor service manager
 PRODUCT_PACKAGES += \
