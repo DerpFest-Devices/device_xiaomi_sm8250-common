@@ -15,5 +15,11 @@
      "repository": "LineageOS/android_hardware_xiaomi",
      "target_path": "hardware/xiaomi/",
      "branch": "lineage-19.1"
+  },
+  {
+    "remote": "gitlab",
+    "repository":  "dakkshesh07/neutron-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-neutron",
+    "branch": "Neutron-15"
   }
 ]
