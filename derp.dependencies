@@ -1,0 +1,19 @@
+[
+  {
+    "repository": "vendor_xiaomi_sm8250-common",
+    "target_path": "vendor/xiaomi/sm8250-common",
+    "branch": "12.1"
+  },
+  {
+     "remote": "github",
+     "repository": "LineageOS/android_hardware_xiaomi",
+     "target_path": "hardware/xiaomi/",
+     "branch": "lineage-19.1"
+  },
+  {
+    "remote": "gitlab",
+    "repository":  "XSans0/weebx-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-15",
+    "branch": "release/15-gr"
+  }
+]
